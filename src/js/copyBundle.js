@@ -114,7 +114,7 @@ const main = (function () {
          $('#animaciones').prop('checked', false);
       }
 
-      _checkURL();
+      // _checkURL();
 
    }); //end ready
    //----------------- fun down----------------------
@@ -248,14 +248,14 @@ const main = (function () {
       }
    }
 
-   function _checkURL() {
-      const url = window.location.href;
-      const expectedUrl = "https://skueletor.github.io/";
+   // function _checkURL() {
+   //    const url = window.location.href;
+   //    const expectedUrl = "https://skueletor.github.io/";
 
-      if (!url.startsWith(expectedUrl)) {
-         window.location.href = expectedUrl + nameWeb + "/";
-      }
-   }
+   //    if (!url.startsWith(expectedUrl)) {
+   //       window.location.href = expectedUrl + nameWeb + "/";
+   //    }
+   // }
 
 
    //return doAnimate fun external
