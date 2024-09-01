@@ -21,7 +21,7 @@ import returnUsers from "./users.js";
    const $social = $("#social");
    const $imgUser = $("#img-user");
 
-   const pathImg = "./src/img/";
+   const pathImg = `/${main.nameWeb}/src/img/`;
 
    const users = returnUsers;
 
