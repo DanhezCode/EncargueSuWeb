@@ -4,19 +4,18 @@ const users = (function () {
          name: "Daniel Hernández Ochoa",
          img: "my.png",
          social: [{
-            nameSocial: "Encargue Su Web",
-            url: "https://www.facebook.com/profile.php?id=100094217535429",
+            nameSocial: "Llamar",
+            url: "tel:+5356556178",
+         }, {
+            nameSocial: "Whatsapp",
+            url: "https://wa.me/qr/AJUC52WXO7XJG1",
             privated: true,
          }, {
             nameSocial: "Facebook",
             url: "https://www.facebook.com/daniel.hernandezochoa.750",
          }, {
             nameSocial: "Instagram",
-            url: "https://instagram.com/daniel_hdz5655?igshid=YWYwM2I1ZDdmOQ==",
-         }, {
-            nameSocial: "Whatsapp",
-            url: "https://wa.me/qr/AJUC52WXO7XJG1",
-            privated: true,
+            url: "https://www.instagram.com/danhez_neez/",
          }, {
             nameSocial: "Telegram",
             url: "https://t.me/danhez",
