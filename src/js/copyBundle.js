@@ -83,9 +83,9 @@ const main = (function () {
       });
 
       //Get parm animacion from url
-      const animacionesUrl = _getParamValue("animaciones") || true;
+      const animacionesUrl = getParamValue("animaciones") || true;
       //Update Local Storage
-      const animaciones = handleLocalStorage("animaciones", animacionesUrl, !!_getParamValue("animaciones"));
+      const animaciones = handleLocalStorage("animaciones", animacionesUrl, !!getParamValue("animaciones"));
       
       //scroll to id url and remove old animate
       const idUrl = _getIdFromUrl();
@@ -183,7 +183,7 @@ const main = (function () {
    }
    
    //Optener parametros de url
-   function _getParamValue (param) {
+   function getParamValue (param) {
       const query = window.location.search.substring(1);
       const params = query.split('&');
       for (var i = 0; i < params.length; i++) {
@@ -260,9 +260,10 @@ const main = (function () {
 
    //return doAnimate fun external
    return {
-      nameWeb: nameWeb,
-      handleLocalStorage: handleLocalStorage,
-      doAnimate: doAnimate,
+      nameWeb,
+      handleLocalStorage,
+      doAnimate,
+      getParamValue,
    }
 
 })();
