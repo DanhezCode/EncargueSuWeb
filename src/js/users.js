@@ -8,7 +8,7 @@ const users = (function () {
             url: "tel:+5356556178",
          }, {
             nameSocial: "Whatsapp",
-            url: "https://wa.me/qr/AJUC52WXO7XJG1",
+            url: "https://wa.me/+5356556178",
             privated: true,
          }, {
             nameSocial: "Facebook",
