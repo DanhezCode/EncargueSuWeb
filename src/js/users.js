@@ -2,7 +2,7 @@ const users = (function () {
    const users = {
       Daniel: {
          name: "Daniel Hernández Ochoa",
-         img: "my.png",
+         img: "/my/512.png",
          social: [{
             nameSocial: "Llamar",
             url: "tel:+5356556178",

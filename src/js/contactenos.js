@@ -30,6 +30,9 @@ import returnUsers from "./users.js";
       const {name, img, social} = user;
       let cont = 0;
 
+      console.log({name, img, social});
+      
+      $social.empty()
       $username.text(name);
       $imgUser.attr("src", pathImg + img)
 
